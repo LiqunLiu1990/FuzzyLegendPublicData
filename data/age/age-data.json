@@ -1,0 +1,37 @@
+{
+    "file": "./data/age/age-data.csv",
+    "name": "Age Data",
+    "header": 1,
+    "separator": ",",
+    "meta": {
+      "start_latitude": "Latitude",
+      "start_longitude": "Longitude",
+      "end_latitude": "Latitude2",
+      "end_longitude": "Longitude2",
+      "group": "group",
+      "time": "Seconds"
+    },
+    "grids": [
+      {
+        "title": "Default"
+      }
+    ],
+    "attributes": [
+      {
+        "name": "id",
+        "type": "categorical"
+      },
+      {
+        "name": "Age",
+        "type": "quantitative"
+      },
+      {
+        "name": "Gender",
+        "type": "categorical"
+      }
+    ],
+    "author": "Liqun",
+    "description": "Age dataset",
+    "source": ""
+  }
+  

@@ -1,0 +1,19 @@
+[
+  "grandlyon/grandlyon-data-1000.json",
+  "temperature/temperatures.json",
+  "temperature-color/temperatures-color.json",
+  "grandlyon/grandlyon-data-10000.json",
+  "loudata/lou-data.json",
+  "age/age-data.json",
+  "random/random-data.json",
+  "gradedata/grade-data.json",
+  "importdata/import-data.json",
+  "Coronovirus/coronovirus-data.json",
+  "coronovirus-confirmed/ncov2019.json",
+  "drlviz_hgs/drlviz_hgs.json",
+  "isochrones/isochronesParis.json",
+  "GDP/gdp-data.json",
+  "taxichina/taxi-trajectory-sample-data.json",
+  "PORT/container.json",
+  "newAge/athletes-age.json"
+]

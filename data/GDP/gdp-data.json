@@ -1,0 +1,31 @@
+{
+    "file": "./data/GDP/gdp-data.csv",
+    "name": "GDP Growth",
+    "header": 1,
+    "separator": ",",
+    "meta": {
+      "group": "group",
+      "time": "Seconds"
+    },
+    "grids": [
+      {
+        "title": "Default"
+      }
+    ],
+    "attributes": [
+      {
+        "name": "growth",
+        "type": "quantitative"
+      },
+      {
+        "name":"ymd",
+        "type":"quantitative",
+        "format": "%Y"
+      }
+    ],
+    "code example": "https://observablehq.com/@fil/ncov2019-data#data",
+    "author": "Liqun",
+    "description": "GPD change dataset",
+    "source": "https://gist.githubusercontent.com/bumbeishvili/eda404e6c4c3d1943f1187ecf2da3854/raw/915b3e4acfcb0f8635f527ea63ab5ebb23f57a44/API_NY.GDP.MKTP.KD.ZG_DS2_en_csv_v2_10473730.csv"
+  }
+  

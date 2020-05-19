@@ -1,0 +1,158 @@
+{
+  "file": "./data/temperature/temperatures.csv",
+  "mapfile": [
+    "./data/temperature/states-10m.json",
+    "./data/temperature/climdiv.json"
+  ],
+  "name": "temperature",
+  "header": 1,
+  "separator": ",",
+  "meta": {
+    "date": "start_time",
+    "group": "group",
+    "timeParse": "%c",
+    "cumul": "distance"
+  },
+  "grids": [
+    {
+      "title": "Default"
+    },
+    {
+      "title": "overview-figure",
+      "attribute": "0",
+      "parameters": [
+        {
+          "Crisp": "3",
+          "Core": "13.6",
+          "Support": 21.3,
+          "Lambda": "0.7",
+          "colors": [
+            "Blues",
+            "Greens",
+            "Oranges"
+          ],
+          "names": [
+            "low",
+            "middle",
+            "high"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "temp32",
+      "attribute": "0",
+      "parameters": [
+        {
+          "Crisp": "3",
+          "Core": "13.6",
+          "Support": "27.2",
+          "Lambda": "0.7",
+          "colors": [
+            "Blues",
+            "Greens",
+            "Oranges"
+          ],
+          "names": [
+            "we",
+            "fed",
+            "efsdf"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "temp",
+      "attribute": "0",
+      "parameters": [
+        {
+          "Crisp": "3",
+          "Core": "13.6",
+          "Support": "27.2",
+          "Lambda": "0.7",
+          "colors": [
+            "Greens",
+            "Greens",
+            "Oranges"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "attribute0",
+      "attribute": "1",
+      "parameters": [
+        {
+          "Crisp": "5",
+          "Core": "8.8",
+          "Support": 21.7,
+          "Lambda": "0.7",
+          "colors": [
+            "Greens",
+            "Greens",
+            "Oranges",
+            "Purples",
+            "Reds"
+          ]
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "name": "0",
+      "type": "quantitative"
+    },
+    {
+      "name": "1",
+      "type": "quantitative"
+    },
+    {
+      "name": "2",
+      "type": "quantitative"
+    },
+    {
+      "name": "3",
+      "type": "quantitative"
+    },
+    {
+      "name": "4",
+      "type": "quantitative"
+    },
+    {
+      "name": "5",
+      "type": "quantitative"
+    },
+    {
+      "name": "6",
+      "type": "quantitative"
+    },
+    {
+      "name": "7",
+      "type": "quantitative"
+    },
+    {
+      "name": "8",
+      "type": "quantitative"
+    },
+    {
+      "name": "9",
+      "type": "quantitative"
+    },
+    {
+      "name": "10",
+      "type": "quantitative"
+    },
+    {
+      "name": "11",
+      "type": "quantitative"
+    },
+    {
+      "name": "id",
+      "type": "categorical"
+    }
+  ],
+  "author": "Liu Liqun",
+  "description": "temperature",
+  "source": ""
+}
